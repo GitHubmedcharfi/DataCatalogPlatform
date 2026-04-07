@@ -6,3 +6,4 @@ passlib[bcrypt]==1.7.4
 python-dotenv==1.0.1
 pydantic==2.6.4
 PyJWT==2.8.0
+passlib[argon2]==1.7.4

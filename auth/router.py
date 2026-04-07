@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, status, Body, HTTPException
 from sqlalchemy.orm import Session
-from .database import get_db
+from database import get_db
 from .schemas import RegisterRequest, RegisterResponse, LoginRequest, TokenResponse, RefreshTokenRequest,LogoutRequest
 from .service import register_user, login_user, logout_user
 from .security import decode_token, create_access_token, create_refresh_token
